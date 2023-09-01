@@ -5,6 +5,20 @@ const bcrypt = require("bcrypt");
 const saltRounds = 10;
 var validator = require("email-validator");
 
+// User info;
+router.get("/user-info", (req, res) => {
+  const reqEmail = req.query.email;
+  try {
+    const sql = `SELECT name,email,phone,photo,dob,presentaddress,permanentaddress,profession FROM user_info WHERE email=?`;
+    con.query(sql, [reqEmail], (err, result) => {
+      if (err) return res.send({ error: err.message });
+      res.send(result[0]);
+    });
+  } catch (error) {
+    res.send({ error: error.message });
+  }
+});
+
 // User Login
 router.post("/login", (req, res) => {
   const email = req.body.email;
