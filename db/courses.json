@@ -1,0 +1,207 @@
+[
+  {
+    "id": 1,
+    "title": "C Program",
+    "description": "Learn the C programming language and its fundamental programming concepts. Gain the knowledge to write simple C language applications and undertake future courses that assume some background in computer programming. Topics include variables, data types, functions, control structures, pointers, strings, arrays and dynamic allocation principles. You need access to any programming environment that allows you to write, edit, compile, link and debug a C program.",
+    "price": 549,
+    "discountPercentage": 12.96,
+    "rating": 4.69,
+    "seat": 94,
+    "prerequisite": "Basic knowledge of .....",
+    "category": "programming-language",
+    "thumbnail": "https://contentstatic.techgig.com/photo/90325682.cms",
+    "demo": "https://www.youtube.com/embed/44Zbi42cfoM?si=YrrNWXkV5tldtuwF",
+    "Instructor": [
+      "Sm Munna",
+      "Abid Hasan"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "C++ Program",
+    "description": "Learn the C++ programming language and its fundamental programming concepts. Gain the knowledge to write simple C language applications and undertake future courses that assume some background in computer programming. Topics include variables, data types, functions, control structures, pointers, strings, arrays and dynamic allocation principles. You need access to any programming environment that allows you to write, edit, compile, link and debug a C program.",
+    "price": 549,
+    "discountPercentage": 12.96,
+    "rating": 4.69,
+    "seat": 94,
+    "prerequisite": "Basic knowledge of .....",
+    "category": "programming-language",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png",
+    "demo": "https://www.youtube.com/embed/44Zbi42cfoM?si=YrrNWXkV5tldtuwF",
+    "Instructor": [
+      "Sm Munna",
+      "Abid Hasan"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Java Program",
+    "description": "Learn the C++ programming language and its fundamental programming and object oriented programming concepts. Gain the knowledge to write simple C++ language applications and undertake future courses that assume some background in computer programming. Topics include variables, data types, functions, control structures, pointers, strings, arrays, dynamic allocation principles and object oriented(class, object,access modifier, inheritance, polymorphism, constructor and destructor). You need access to any programming environment that allows you to write, edit, compile, link and debug a C++ program.",
+    "price": 549,
+    "discountPercentage": 12.96,
+    "rating": 4.69,
+    "seat": 94,
+    "prerequisite": "Basic knowledge of .....",
+    "category": "programming-language",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/800px-Java_programming_language_logo.svg.png",
+    "demo": "https://www.youtube.com/embed/44Zbi42cfoM?si=YrrNWXkV5tldtuwF",
+    "Instructor": [
+      "Sm Munna",
+      "Abid Hasan"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "PHP Program",
+    "description": "Learn the C++ programming language and its fundamental programming and object oriented programming concepts. Gain the knowledge to write simple C++ language applications and undertake future courses that assume some background in computer programming. Topics include variables, data types, functions, control structures, pointers, strings, arrays, dynamic allocation principles and object oriented(class, object, access modifier, inheritance, polymorphism, constructor and destructor). You need access to any programming environment that allows you to write, edit, compile, link and debug a C++ program.",
+    "price": 549,
+    "discountPercentage": 12.96,
+    "rating": 4.69,
+    "seat": 94,
+    "prerequisite": "Basic knowledge of .....",
+    "category": "programming-language",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png",
+    "demo": "https://www.youtube.com/embed/44Zbi42cfoM?si=YrrNWXkV5tldtuwF",
+    "Instructor": [
+      "Sm Munna",
+      "Abid Hasan"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Java Program",
+    "description": "Learn the Java programming language and its fundamental programming and object oriented programming concepts. Gain the knowledge to write simple Java language applications and undertake future courses that assume some background in computer programming. Topics include variables, data types, functions, control structures, strings, arrays, dynamic allocation principles and object oriented(class, object, access modifier, inheritance, polymorphism,interface, abstraction, constructor, exception handling and thread). You need access to any programming environment that allows you to write, edit, compile, link and debug a Java program.",
+    "price": 549,
+    "discountPercentage": 12.96,
+    "rating": 4.69,
+    "seat": 94,
+    "prerequisite": "Basic knowledge of .....",
+    "category": "programming-language",
+    "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+    "demo": "https://www.youtube.com/embed/44Zbi42cfoM?si=YrrNWXkV5tldtuwF",
+    "Instructor": [
+      "Sm Munna",
+      "Abid Hasan"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Java Program",
+    "description": "Learn the Java programming language and its fundamental programming and object oriented programming concepts. Gain the knowledge to write simple Java language applications and undertake future courses that assume some background in computer programming. Topics include variables, data types, functions, control structures, strings, arrays, dynamic allocation principles and object oriented(class, object, access modifier, inheritance, polymorphism,interface, abstraction, constructor, exception handling and thread). You need access to any programming environment that allows you to write, edit, compile, link and debug a Java program.",
+    "price": 549,
+    "discountPercentage": 12.96,
+    "rating": 4.69,
+    "seat": 94,
+    "prerequisite": "Basic knowledge of .....",
+    "category": "programming-language",
+    "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+    "demo": "https://www.youtube.com/embed/44Zbi42cfoM?si=YrrNWXkV5tldtuwF",
+    "Instructor": [
+      "Sm Munna",
+      "Abid Hasan"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "C# program",
+    "description": "Learn the C# programming language and its fundamental programming and object oriented programming concepts. Gain the knowledge to write simple C# language applications and undertake future courses that assume some background in computer programming. Topics include variables, data types, functions, control structures, strings, arrays, dynamic allocation principles and object oriented(class, object, access modifier, inheritance,properties, polymorphism,interface, abstraction, constructor, destructor, exception handling and enum). You need access to any programming environment that allows you to write, edit, compile, link and debug a C# program.",
+    "price": 549,
+    "discountPercentage": 12.96,
+    "rating": 4.69,
+    "seat": 94,
+    "prerequisite": "Basic knowledge of .....",
+    "category": "programming-language",
+    "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+    "demo": "https://www.youtube.com/embed/44Zbi42cfoM?si=YrrNWXkV5tldtuwF",
+    "Instructor": [
+      "Sm Munna",
+      "Abid Hasan"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "C# program",
+    "description": "Learn the C# programming language and its fundamental programming and object oriented programming concepts. Gain the knowledge to write simple C# language applications and undertake future courses that assume some background in computer programming. Topics include variables, data types, functions, control structures, strings, arrays, dynamic allocation principles and object oriented(class, object, access modifier, inheritance,properties, polymorphism,interface, abstraction, constructor, destructor, exception handling and enum). You need access to any programming environment that allows you to write, edit, compile, link and debug a C# program.",
+    "price": 549,
+    "discountPercentage": 12.96,
+    "rating": 4.69,
+    "seat": 94,
+    "prerequisite": "Basic knowledge of .....",
+    "category": "programming-language",
+    "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+    "demo": "https://www.youtube.com/embed/44Zbi42cfoM?si=YrrNWXkV5tldtuwF",
+    "Instructor": [
+      "Sm Munna",
+      "Abid Hasan"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "JavaScript program",
+    "description": "Learn the JavaScript programming language and its fundamental programming concepts. Gain the knowledge to write simple JavaScript language applications and undertake future courses that assume some background in computer programming. Topics include variables, data types, functions, control structures, strings, arrays, dynamic allocation principles and Json. You need access to any programming environment that allows you to write, edit, compile, link and debug a JavaScript program.",
+    "price": 549,
+    "discountPercentage": 12.96,
+    "rating": 4.69,
+    "seat": 94,
+    "prerequisite": "Basic knowledge of .....",
+    "category": "programming-language",
+    "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+    "demo": "https://www.youtube.com/embed/44Zbi42cfoM?si=YrrNWXkV5tldtuwF",
+    "Instructor": [
+      "Sm Munna",
+      "Abid Hasan"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "JavaScript program",
+    "description": "Learn the JavaScript programming language and its fundamental programming concepts. Gain the knowledge to write simple JavaScript language applications and undertake future courses that assume some background in computer programming. Topics include variables, data types, functions, control structures, strings, arrays, dynamic allocation principles and Json. You need access to any programming environment that allows you to write, edit, compile, link and debug a JavaScript program.",
+    "price": 549,
+    "discountPercentage": 12.96,
+    "rating": 4.69,
+    "seat": 94,
+    "prerequisite": "Basic knowledge of .....",
+    "category": "programming-language",
+    "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+    "demo": "https://www.youtube.com/embed/44Zbi42cfoM?si=YrrNWXkV5tldtuwF",
+    "Instructor": [
+      "Sm Munna",
+      "Abid Hasan"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "PHP program",
+    "description": "Learn the PHP programming language and its fundamental programming concepts. Gain the knowledge to write simple PHP language applications and undertake future courses that assume some background in computer programming. Topics include variables, data types, functions, control structures, strings, arrays, dynamic allocation principles and Json. You need access to any programming environment that allows you to write, edit, compile, link and debug a PHP program.",
+    "price": 549,
+    "discountPercentage": 12.96,
+    "rating": 4.69,
+    "seat": 94,
+    "prerequisite": "Basic knowledge of .....",
+    "category": "programming-language",
+    "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+    "demo": "https://www.youtube.com/embed/44Zbi42cfoM?si=YrrNWXkV5tldtuwF",
+    "Instructor": [
+      "Sm Munna",
+      "Abid Hasan"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "PHP program",
+    "description": "Learn the PHP programming language and its fundamental programming concepts. Gain the knowledge to write simple PHP language applications and undertake future courses that assume some background in computer programming. Topics include variables, data types, functions, control structures, strings, arrays, dynamic allocation principles and Json. You need access to any programming environment that allows you to write, edit, compile, link and debug a PHP program.",
+    "price": 549,
+    "discountPercentage": 12.96,
+    "rating": 4.69,
+    "seat": 94,
+    "prerequisite": "Basic knowledge of .....",
+    "category": "programming-language",
+    "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+    "demo": "https://www.youtube.com/embed/44Zbi42cfoM?si=YrrNWXkV5tldtuwF",
+    "Instructor": [
+      "Sm Munna",
+      "Abid Hasan"
+    ]
+  }
+
+]
