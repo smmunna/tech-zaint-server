@@ -9,7 +9,7 @@ var validator = require("email-validator");
 router.get("/user-info", (req, res) => {
   const reqEmail = req.query.email;
   try {
-    const sql = `SELECT name,email,phone,photo,dob,presentaddress,permanentaddress,profession FROM user_info WHERE email=?`;
+    const sql = `SELECT name,email,phone,photo,dob,presentaddress,permanentaddress,profession,role FROM user_info WHERE email=?`;
     con.query(sql, [reqEmail], (err, result) => {
       if (err) return res.send({ error: err.message });
       res.send(result[0]);
