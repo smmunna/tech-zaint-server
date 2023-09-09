@@ -4,10 +4,64 @@ const upload = require("../../components/uploadImage/uploadImage");
 const bcrypt = require("bcrypt");
 const saltRounds = 10;
 var validator = require("email-validator");
+var jwt = require('jsonwebtoken');
+
+
+/**
+ * --------------------------------------------------------------------------------------------
+ * Authorization Started , After login=> verifying is he user or not ..
+ * --------------------------------------------------------------------------------------------
+ * ***/ 
+
+// Sign In JWT TOken
+router.post('/jwt', (req, res) => {
+  const user = req.body.email;
+  console.log(user)
+  const token = jwt.sign({ user }, process.env.ACCESS_TOKEN_SECRET, {
+    expiresIn: '1h'
+  })
+  // console.log(token)
+  res.send({ token })
+
+})
+
+//Important function
+const verifyJWT = (req, res, next) => {
+  const authorization = req.headers.authorization
+  // console.log(authorization)
+  if (!authorization) {
+    return res.send({ error: 'Error occured', message: "You are not authorized person, Contact with admin or info@techzaint.com" })
+  }
+  const token = authorization.split(' ')[1]
+  // console.log(token)
+  jwt.verify(token, process.env.ACCESS_TOKEN_SECRET, (error, decode) => {
+    if (error) {
+      return res.send({ error: 'Error occured', message: "You can not access this." })
+    }
+    req.decode = decode
+    next()
+  })
+}
+
+/**
+ * --------------------------------------------------------------------------------------------
+ * Authorization part complted
+ * --------------------------------------------------------------------------------------------
+ * ***/ 
+
+
+
 
 // User info;
-router.get("/user-info", (req, res) => {
+router.get("/user-info", verifyJWT, (req, res) => {
+  // console.log(req.headers.authorization)
+  const decode = req.decode
+  // console.log('Comeback after decode',decode.user)
+
   const reqEmail = req.query.email;
+  if (decode.user !== reqEmail) {
+    res.status(403).send("Unauthorized access")
+  }
   try {
     const sql = `SELECT name,email,phone,photo,dob,presentaddress,permanentaddress,profession,role FROM user_info WHERE email=?`;
     con.query(sql, [reqEmail], (err, result) => {
