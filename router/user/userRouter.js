@@ -11,7 +11,7 @@ var jwt = require('jsonwebtoken');
  * --------------------------------------------------------------------------------------------
  * Authorization Started , After login=> verifying is he user or not ..
  * --------------------------------------------------------------------------------------------
- * ***/ 
+ * ***/
 
 // Sign In JWT TOken
 router.post('/jwt', (req, res) => {
@@ -47,21 +47,36 @@ const verifyJWT = (req, res, next) => {
  * --------------------------------------------------------------------------------------------
  * Authorization part complted
  * --------------------------------------------------------------------------------------------
- * ***/ 
+ * ***/
 
+
+// Finding the user role;
+router.get("/user-role",(req,res)=>{
+  const reqEmail = req.query.email;
+  try {
+    const sql = `SELECT role FROM user_info WHERE email=?`;
+    con.query(sql, [reqEmail], (err, result) => {
+      if (err) return res.send({ error: err.message });
+      res.send(result[0]);
+    });
+  } catch (error) {
+    res.send({ error: error.message });
+  }
+
+})
 
 
 
 // User info;
-router.get("/user-info", verifyJWT, (req, res) => {
+router.get("/user-info", (req, res) => {
   // console.log(req.headers.authorization)
-  const decode = req.decode
+  // const decode = req.decode
   // console.log('Comeback after decode',decode.user)
 
   const reqEmail = req.query.email;
-  if (decode.user !== reqEmail) {
-    res.status(403).send("Unauthorized access")
-  }
+  // if (decode.user !== reqEmail) {
+  //   res.status(403).send("Unauthorized access")
+  // }
   try {
     const sql = `SELECT name,email,phone,photo,dob,presentaddress,permanentaddress,profession,role FROM user_info WHERE email=?`;
     con.query(sql, [reqEmail], (err, result) => {
