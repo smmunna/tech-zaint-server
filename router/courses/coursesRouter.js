@@ -1,7 +1,13 @@
 const router = require('express').Router()
 const courses = require('../../db/courses.json')
 
-router.get('/',(req,res)=>{
+// Axios post data to the database;
+router.post('/', (req, res) => {
+    const courses = req.body;
+    res.send(courses.courseInfo)
+})
+
+router.get('/', (req, res) => {
     res.send(courses)
 })
 
