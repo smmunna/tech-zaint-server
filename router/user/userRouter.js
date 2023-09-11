@@ -9,14 +9,14 @@ var jwt = require('jsonwebtoken');
 
 /**
  * --------------------------------------------------------------------------------------------
- * Authorization Started , After login=> verifying is he user or not ..
+ * Authorization Started , After login=> verifying is he user or not .
  * --------------------------------------------------------------------------------------------
  * ***/
 
 // Sign In JWT TOken
 router.post('/jwt', (req, res) => {
   const user = req.body.email;
-  console.log(user)
+  // console.log(user);
   const token = jwt.sign({ user }, process.env.ACCESS_TOKEN_SECRET, {
     expiresIn: '1h'
   })
